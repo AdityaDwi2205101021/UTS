@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(ppp.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(229, 211, 9);
+}
+ul li{
+    display: inline-block;
+}
+a, .dropbtn{
+    display: inline-block;
+    color: #fff;
+    background-color: rgba(229, 210, 9, 0.851);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.dropbtn{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+ul li{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: o,6s;
+    margin: 10px;
+}
+
+ul li a:hover{
+background-color: #fff;
+color: rgb(50, 27, 167);
+}
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+}
+.main{
+    max-width: 1280px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    transform: translate(-50%-50%);
+}
+.title h1{
+    position: sans-serif ;
+   color: #fff;
+   font-size: 50px;
+}
+.title p{
+    position: sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}
+.title h2{
+    position: sans-serif ;
+   color: #fff;
+   font-size: 30px;
+}
+.title p2{
+    position: sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+.toko img{
+    position: absolute;
+    top: 110%;
+    right: 40%;
+    left: 30%;
+    float: center;
+    width: 400px;
+    height: auto;
+}
